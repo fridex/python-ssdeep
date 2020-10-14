@@ -106,7 +106,7 @@ else:
 
 
 setup(
-    name=about["__title__"],
+    name="thoth-" + about["__title__"],
     version=about["__version__"],
 
     description=about["__summary__"],
